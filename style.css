@@ -81,6 +81,12 @@
     gap: 3.2rem;
     margin: 6rem 3.2rem 5rem 3.2rem;
   }
+
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 700ms;
+  }
   
   .cards .card {
     position: relative;
